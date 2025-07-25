@@ -9,6 +9,8 @@ matplotlib
 xgboost
 catboost
 mlflow==2.8.1
+flask
+Flask
 
 
 -e .

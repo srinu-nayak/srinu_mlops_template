@@ -6,3 +6,10 @@ creating a template for all kind of mlops projects
 3. template.py
 4. requirements.txt
 5. setup.py
+Docker commands
+
+docker build -t srinu0930/srinu_mlops_template .
+docker images
+docker push srinu0930/srinu_mlops_template:latest
+docker image rm -f srinu0930/srinu_mlops_template:latest
+docker pull srinu0930/srinu_mlops_template:latest
